@@ -1,0 +1,36 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.logs {
+  border: 1px solid #e0e0e0;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx #e0e0e0;
+  margin-top: 20rpx;
+}
+
+.item {
+  padding:30rpx;
+  border-bottom:1rpx solid #f0f0f0;
+  font-size:30rpx;
+  color:#888;
+}
+
+.name {
+  display:inline-block;
+  width:70%;
+  color:#aa0;
+}
+
+.action {
+  display:inline-block;
+  width:30%;
+  color:#f40;
+  text-align:right;
+}
+
+.timestamp {
+  display:block;
+  margin-top:20rpx;
+}
